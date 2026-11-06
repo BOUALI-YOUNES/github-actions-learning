@@ -10,3 +10,7 @@ jobs:
     steps:
       - name: Print a greeting msg
         run: echo "Welcome, this is my first GitHub Actions workflow" 
+      - name: Checkout repository
+        uses: actions/checkout@7
+      - name: list repo files
+        run: ls -la
