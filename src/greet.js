@@ -1,6 +1,6 @@
 function greet(name) {
   if (typeof name !== 'string' || name.trim() === '') {
-    throw new TypeError('the name must be a non-empty string');
+    throw new TypeError(' name must be a non-empty string');
   }
   return `Hello, ${name.trim()}!`;
 }
