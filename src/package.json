@@ -2,7 +2,7 @@
   "name": "greet-app",
   "version": "1.0.0",
   "description": "Minimal Node.js greeting app",
-  "main": "greet.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "test": "bash test.sh"
