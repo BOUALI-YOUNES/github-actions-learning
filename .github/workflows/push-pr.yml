@@ -5,14 +5,14 @@ on:
             - "realease/**"
         paths:
             - "src/**"
-            - ".github/workflows/**"
+            - ".github/workflows/**"    # include this also for trigger the workflow as well after pushing
     pull_request:
         branches:
             - main
             - "realease/**"
         paths:
             - "src/**"
-            - ".github/workflows/**"
+            - ".github/workflows/**"    # include this also for trigger the workflow as well after pushing
 jobs:
     test:
         runs-on: ubuntu-latest
