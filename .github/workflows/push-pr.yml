@@ -17,4 +17,5 @@ jobs:
               uses: actions/checkout@v7
             
             - name: run tests
+              working-directory: src  # just to tell the runer where the package json file is
               run: npm test
