@@ -5,10 +5,14 @@ on:
             - "realease/**"
         paths:
             - "src/**"
+            - ".github/workflows/**"
     pull_request:
         branches:
             - main
             - "realease/**"
+        paths:
+            - "src/**"
+            - ".github/workflows/**"
 jobs:
     test:
         runs-on: ubuntu-latest
